@@ -12,10 +12,10 @@ const App = () => (
     <Navbar>
       <Navbar.Header>
         <Navbar.Brand>
-          <a href="/home">
+          <Link to="/home">
             <TekzenitLogo />
             <span className="workshop-name">React Basics Workshop</span>
-          </a>
+          </Link>
         </Navbar.Brand>
       </Navbar.Header>
       <Nav>
