@@ -11,8 +11,8 @@ const rootElement = document.getElementById('root');
  */
 
 rootElement.innerHTML = `
-    <div>
-        <h1 class="text-center">React Basics Workshop</h1>
+    <div class="text-center">
+        <h1>React Basics Workshop</h1>
         <span>Time: ${new Date().toLocaleTimeString()}</span>
     </div>
 `;
