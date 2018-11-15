@@ -12,7 +12,7 @@ const App = () => (
     <Navbar>
       <Navbar.Header>
         <Navbar.Brand>
-          <a href="#home">
+          <a href="/home">
             <TekzenitLogo />
             <span className="workshop-name">React Basics Workshop</span>
           </a>
