@@ -1,10 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './App';
-
 const rootElement = document.getElementById('root');
-// ReactDOM.render(<App />, rootElement);
 
 /**
  * 1. Understand how vanilla js rendering and re rendoring works
@@ -14,5 +11,8 @@ const rootElement = document.getElementById('root');
  */
 
 rootElement.innerHTML = `
-    <h1 class="text-center">React Basics Workshop</h1>
+    <div>
+        <h1 class="text-center">React Basics Workshop</h1>
+        <span>Time: ${new Date().toLocaleTimeString()}</span>
+    </div>
 `;
