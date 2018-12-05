@@ -1,7 +1,6 @@
-import React from 'react';
 import isPrimeNumber from 'prime-number';
 import primeNumberList from 'prime-number/list';
-console.log(isPrimeNumber, primeNumberList);
+import React from 'react';
 
 class HeavyCalcComponent extends React.PureComponent {
   render() {

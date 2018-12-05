@@ -1,7 +1,7 @@
-import React from 'react';
 import PropTypes from 'prop-types';
+import React from 'react';
 
-const Person = ({ firstName, lastName, age }) => (
+export const Person = ({ firstName, lastName, age }) => (
   <>
     <div>First Name: {firstName}</div>
     <div>Last Name: {lastName}</div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 /**
  * 1. Pass and Access Props (firstName, lastName, age) in Person Component
@@ -8,7 +7,7 @@ import PropTypes from 'prop-types';
  * 4. Default Prop age as 20
  */
 
-const Person = () => (
+export const Person = () => (
   <>
     <div>First Name: </div>
     <div>Last Name: </div>

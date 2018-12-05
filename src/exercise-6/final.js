@@ -1,7 +1,4 @@
 import React from 'react';
-import isPrimeNumber from 'prime-number';
-import primeNumberList from 'prime-number/list';
-console.log(isPrimeNumber, primeNumberList);
 
 class ParentComponent extends React.Component {
   state = {

@@ -1,5 +1,5 @@
-import React from 'react';
 import PropTypes from 'prop-types';
+import React from 'react';
 
 const people = [
   {
@@ -17,7 +17,7 @@ const people = [
   },
 ];
 
-const People = props => {
+export const People = props => {
   return props.list.map((person, index) => <Person {...person} key={index} />);
 };
 

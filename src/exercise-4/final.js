@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Timer extends React.Component {
+export class Timer extends React.Component {
   state = {
     time: new Date().toLocaleTimeString(),
   };
