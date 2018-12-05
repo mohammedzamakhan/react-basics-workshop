@@ -1,23 +1,15 @@
 import React from 'react';
 import isPrimeNumber from 'prime-number';
 import primeNumberList from 'prime-number/list';
-
-class HeavyCalcComponent extends React.Component {
-  render() {
-    return primeNumberList.map((prime, i) => {
-      return (
-        <div key={i}>
-          {prime} {isPrimeNumber(prime) ? 'Yes' : 'No'}
-        </div>
-      );
-    });
-  }
-}
+console.log(isPrimeNumber, primeNumberList);
 
 class ParentComponent extends React.Component {
   state = {
     value: '',
   };
+
+  handleButtonClick = () => {};
+
   render() {
     return (
       <React.Fragment>
@@ -27,7 +19,7 @@ class ParentComponent extends React.Component {
           value={this.state.value}
           onChange={e => this.setState({ value: e.target.value })}
         />
-        <HeavyCalcComponent />
+        <button onClick={this.handleButtonClick}>Focus</button>
       </React.Fragment>
     );
   }

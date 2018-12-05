@@ -6,6 +6,8 @@
   "main": "src/index.js",
   "dependencies": {
     "@reach/router": "1.2.1",
+    "enzyme": "3.7.0",
+    "expect": "23.6.0",
     "prime-number": "0.2.2",
     "react": "16.6.3",
     "react-bootstrap": "0.32.4",
