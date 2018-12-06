@@ -6,6 +6,8 @@
   "main": "src/index.js",
   "dependencies": {
     "@reach/router": "1.2.1",
+    "@types/enzyme": "^3.1.15",
+    "@types/jest": "^23.3.10",
     "enzyme": "3.7.0",
     "enzyme-adapter-react-16": "^1.7.0",
     "expect": "23.6.0",
@@ -15,11 +17,13 @@
     "react-dom": "16.6.3",
     "react-scripts": "2.1.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "tslint-config-airbnb": "5.0.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test --env=jsdom --resolveJsonModule",
     "eject": "react-scripts eject"
   },
   "browserslist": [
